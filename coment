@@ -1,0 +1,39 @@
+HTML 
+- Hypertext
+- Markup
+  - tags, elementos
+  - Language
+
+  Tags 
+  <span> um ao lado do outro
+  <div> um abaixo do outro 
+
+  CSS 
+  - Cascading Style Sheets
+
+  JavaScript 
+  - Ling pra ser interpretada pelo browser 
+  - dinâmica 
+  - orientada a obj 
+  - Ling viva sendo inovada pela ECMAScript 
+
+Conceitos de programação
+
+- Comentários usa-se // para comentar
+- Declaração de variáveis (const, let)
+- Operadores (atribuição, concatenação, matemáticos)
+- Tipos de dados (string, number, boolean, Date)
+- Estrutura de dados (functions, object, array)
+- Controle de fluxo (if/else)
+- Estrutura de repetição (for)
+- Manipulação e gestão de dados 
+    - Conversão de dados 
+
+
+Algoritmo 
+- Sequência de passos lógica e finita para resolução de um problema
+
+Fases da resolução de um problema 
+01. Coletar os dados 
+02. Processsar os dados 
+03. Apresentar os dados 
