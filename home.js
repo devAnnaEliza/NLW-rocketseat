@@ -39,8 +39,12 @@ let atividades = [
 
 // arrow function => 
 const criarItemDeAtividade = (atividade) => {
-
-  let input = '<input type="checkbox" '
+  let input = `
+  '<input 
+  onchange="concluirAtividade(event)"
+  value="${atividade.data}"
+  type="checkbox" 
+  `
 
   if(atividade.finalizada) {
     input += 'checked'
@@ -68,8 +72,8 @@ const atualizarListaDeAtividades = () => {
 
   // verificar se a minha lista está vazia
   if(atividades.length == 0) {
-    section.innerHTML = `<p>nenhuma atividade cadastrada</p>`
-    return 
+    section.innerHTML += `<p>nenhuma atividade cadastrada</p>`
+    return
   }
 
   for(let atividade of atividades) {
@@ -100,10 +104,10 @@ const salvarAtividade = (event) => {
   })
 
  if (atividadeExiste) {
-  return alert('dia/hora indisponível')
+  return alert('Dia/Hora indisponível')
  }
 
-  atividades = [atividade, ...atividades]
+  atividades = [novaAtividade, ...atividades]
   atualizarListaDeAtividades()
 }
 
@@ -153,3 +157,18 @@ const criarHorasSelecao = () => {
   .innerHTML = horasDisponiveis
 }
 criarHorasSelecao()
+
+const concluirAtividade = (event) => {
+  const input = event.target
+  const dataDesteInput = input.value 
+
+  const atividade = atividades.find((atividade) => {
+    return atividade.data == dataDesteInput
+  })
+
+  if(!atividade) {
+    return
+  }
+
+  atividade.finalizada = !atividade.finalizada
+}
