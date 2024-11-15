@@ -171,4 +171,4 @@ const concluirAtividade = (event) => {
   }
 
   atividade.finalizada = !atividade.finalizada
-}
+} 
