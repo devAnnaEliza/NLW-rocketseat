@@ -8,4 +8,4 @@ Este projeto é um site responsivo para montar um roteiro de viagem, cadastrando
 - Aplicação de lógica de programação com **JavaScript**;
 - Utilização do **Day.js** para datas. 
 
-<img width=170px alt="app" src="img/imgapp.png"> <img width=650px alt="app" src="img/imgsite.png">
+<img width=170px alt="app" src="img/imgapp.png"> <img width=620px alt="app" src="img/imgsite.png">
