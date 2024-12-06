@@ -1,2 +1,2 @@
-# trilhadiscover-rocketseat
- 
+## Trilha Discover 🔎
+**`RocketSeat 🚀
