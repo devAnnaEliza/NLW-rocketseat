@@ -39,6 +39,7 @@ let atividades = [
 
 // arrow function => 
 const criarItemDeAtividade = (atividade) => {
+  
   let input = `
   '<input 
   onchange="concluirAtividade(event)"
