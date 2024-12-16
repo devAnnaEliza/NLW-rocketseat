@@ -1,4 +1,4 @@
-## Projeto Roteiro de Viagem ✈️
+## Roteiro de Viagem ✈️
 **`RocketSeat`** 🚀
 
 Este projeto é um site responsivo para montar um roteiro de viagem, cadastrando atividades. Esse é um dos projetos do evento NLW Journey da Rocketseat.  
