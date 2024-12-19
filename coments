@@ -8,18 +8,17 @@ HTML
   <span> um ao lado do outro
   <div> um abaixo do outro 
 
-  CSS 
-  - Cascading Style Sheets
+  CSS *Cascading Style Sheets*
 
   JavaScript 
-  - Ling pra ser interpretada pelo browser 
-  - dinâmica 
-  - orientada a obj 
-  - Ling viva sendo inovada pela ECMAScript 
+  - Linguagem pra ser interpretada pelo browser 
+  - Dinâmica 
+  - Orientada a obj 
+  - Linguagem viva sendo inovada pela ECMAScript 
 
 Conceitos de programação
 
-- Comentários usa-se // para comentar
+- Usa-se // para comentar em javascript
 - Declaração de variáveis (const, let)
 - Operadores (atribuição, concatenação, matemáticos)
 - Tipos de dados (string, number, boolean, Date)
@@ -27,7 +26,7 @@ Conceitos de programação
 - Controle de fluxo (if/else)
 - Estrutura de repetição (for)
 - Manipulação e gestão de dados 
-    - Conversão de dados 
+- Conversão de dados 
 
 
 Algoritmo 
@@ -36,4 +35,4 @@ Algoritmo
 Fases da resolução de um problema 
 01. Coletar os dados 
 02. Processsar os dados 
-03. Apresentar os dados
+03. Apresentar os dados 
